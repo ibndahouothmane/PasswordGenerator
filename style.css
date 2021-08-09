@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111927;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 200px;
+}
+.container {
+    width: 30%;
+    height: 10%;
+    background-color: #1c2c48;
+    /* Center vertically and horizontally */
+    position: absolute;
+    padding: 40px 20px;
+    top: 50%;
+    left: 50%;
+    align-content: center;
+    text-align: center;
+    display: inline;
+    transform: translate(-50%,-50%);
+
+
+}
+#output{
+    border: none;
+    background-color: transparent;
+    border-bottom:1px solid black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 1;
+    font-weight: 500;
+}
+.fa {
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#value {
+    width: 15px;
+    margin-top: 20px;
+    height: 25px;
+}
+
+
+@media screen and (max-width: 834px) {
+    .container {
+        width: 50%;
+    }
+  }
+@media screen and (max-width: 505px) {
+    .container {
+        width: 80%;  
+    }
+  }
